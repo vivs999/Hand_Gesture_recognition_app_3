@@ -1,0 +1,69 @@
+ 
+<html>
+    <head>
+      <title>HAND GESTURE RECOGNITION APP</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+      <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+      <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+  
+    <body>
+    <div  class="container">
+    
+      <center>
+        <h3 class="heading">
+          HAND GESTURE RECOGNITION APP
+          <br>
+          <span>&#128076;</span>
+          <span>&#128077;</span>
+          <span>&#9996;</span>
+        </h3>
+        <br><br>
+  
+        <p style="font-size: 22px;">I can identify these three gestures:
+            <br>
+            <span>&#128076;</span>
+            <span>|</span>
+            <span>&#128077;</span>
+            <span>|</span>
+            <span>&#9996;</span>
+        </p>
+  
+        <div class="col-md-4 col-sm-12 col-xs-12">
+          <label>Webcam View - </label>
+          <div id="camera">
+          </div>
+        </div>
+  
+        <div class="col-md-4 col-sm-12 col-xs-12">
+          <label>Prediction 1 - </label>
+          <p class="emoticon_name" id="emotion_1"></p>
+          <p class="emoji" id="emoji_1"></p>
+          <label>Prediction 2 - </label>
+          <p class="emoticon_name" id="emotion_2"></p>
+          <p class="emoji" id="emoji_2"></p>
+          <br>
+          <br>
+          <button class="btn" onclick="check();">Capture And Check Image</button>
+        </div>
+  
+        <div class="col-md-4 col-sm-12 col-xs-12">
+            <label>Snapshot - </label>
+          <div id="result"></div>
+        </div>
+  
+      </center>
+  
+    </div>
+  
+  <script src="main.js"></script>
+  
+    </body>
+  </html>
+  

@@ -1,0 +1,51 @@
+body
+{
+  color: blue;
+  background-color:deepskyblue;
+  border: blue ridge 20px;
+  font-family: 'Indie Flower', cursive;
+}
+span
+{
+  font-size: 30px;
+}
+#camera , #result
+{
+  border: 3px dashed blue;
+  width: 350px;
+  height: 300px; 
+}
+#emotion_1 ,#emotion_2  
+{
+  color: blue;
+  font-size: 25px;
+  font-weight: bolder;
+}
+.emotion_name
+{
+  font-size: 40px;
+}
+.emoji
+{
+  font-size:48px;
+}
+
+.heading{
+  font-size: 27.5px;
+  border-radius: 10px;
+  letter-spacing: 10px;
+  background-color: blue;
+  color: deepskyblue;
+  padding:15px;
+  width: 80%
+}
+
+.btn{
+  background-color: blue;
+  color: deepskyblue;
+  font-size: 18px;
+}
+
+label{
+    font-size: 18px;
+}
